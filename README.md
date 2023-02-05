@@ -1,3 +1,3 @@
 # Newbee 2023 start!
 
-코린이
+html css js 코린이 연습 시작!
