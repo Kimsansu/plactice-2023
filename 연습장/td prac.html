@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta chrset="utf-8" />
+<html>
+  <style>
+    body {
+      font-size: 50px;
+    }
+    form {
+      font-size: 15px;
+    }
+  </style>
+  <title>Table data</title>
+  <head> </head>
+  <body>
+    <form action="http://localhost/color.php">
+      <h4>애인선택</h4>
+      <select name="honey">
+        <option value="rina">배리나</option>
+        <option value="gukju">이국주</option>
+        <option value="hunny">훈이</option>
+        <option value="egong">이정호</option>
+      </select>
+      <input type="submit" />
+    </form>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>성별</th>
+          <th>주소</th>
+          <th>회비</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>변정훈</td>
+          <td rowspan="3">남자</td>
+          <td>부천시</td>
+          <th>1000</th>
+        </tr>
+        <tr>
+          <td>키르아</td>
+          <td>쿠쿠루마운틴</td>
+          <th>2000</th>
+        </tr>
+        <tr>
+          <td>히에이</td>
+          <td>마계</td>
+          <th>500</th>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">합계</td>
+          <td>3500</td>
+        </tr>
+      </tfoot>
+    </table>
+    <form acton="http://localhost/login.php">
+      <br />아이디<input type:"text" name="ID" value="default value">
+      <br />비밀번호<input type:"password" name="pwd"> <br />이메일 <input
+      type:"email" name="mail">
+      <input type="submit" name="login" />
+      <br />
+      <textarea name="메모장" id="area" cols="30" rows="10">메모장</textarea>
+    </form>
+  </body>
+</html>
