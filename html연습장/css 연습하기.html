@@ -19,14 +19,27 @@
         color: rgb(65, 211, 138);
         background-color: rgb(236, 71, 71);
       }
-      img {
+      @keyframes bingbing {
+        from {
+          transform: rotateY(0);
+        }
+        to {
+          transform: rotateY(360deg);
+        }
+      }
+      #kilua {
         border: 5px solid rgb(34, 32, 121);
         border-radius: 50%;
         margin-left: 300px;
         transition: transform 2s ease-in-out;
       }
-      img:hover {
+      #kilua:hover {
         transform: rotateX(360deg) scale(0.5);
+      }
+      #hei {
+        border: 1px solid;
+        border-radius: 50%;
+        animation: bingbing 5s ease-in-out infinite;
       }
     </style>
   </head>
@@ -35,9 +48,15 @@
     <p>
       <img
         src="https://obj.the1.wiki/thecloud/temp/6b696c6c7561207a6f6c6479636b2e636c61737369632e6a7067.jpg"
+        id="kilua"
       />
 
       <span>키르아 글씨 가리는지 테스트</span>
     </p>
+
+    <img
+      src="https://media.tenor.com/BSarB4wu8lkAAAAC/%EC%9C%A0%EC%9C%A0%EB%B0%B1%EC%84%9C-%ED%9E%88%EC%97%90%EC%9D%B4.gif "
+      id="hei"
+    />
   </body>
 </html>
