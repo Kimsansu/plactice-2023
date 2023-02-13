@@ -6,10 +6,18 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/frinds.css";
+
+@font-face {
+  font-family: "Black Han Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@500&display=swap");
+  unicode-range: U+AC00-D7A3;
+}
 
 body {
   color: #2e363e;
@@ -20,4 +28,8 @@ body {
   top: 0;
   width: 100%;
   box-sizing: border-box;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

@@ -13,7 +13,6 @@
   border-radius: 30%;
   margin-right: 15px;
 }
-
 .user-component-title {
   font-weight: 600;
   font-size: 20px;
@@ -24,16 +23,23 @@
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
-
 .user-component-avatar__xl {
   width: 80px;
   height: 80px;
 }
-
 .user-component-avatar__sm {
   width: 60px;
   height: 60px;
+  border-radius: 25px;
 }
 .user-component-title__not-bold {
   font-weight: 500;
+}
+.user-component-column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
