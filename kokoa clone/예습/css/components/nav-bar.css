@@ -28,3 +28,13 @@
   border-radius: 50%;
   left: 33px;
 }
+
+.find-dot {
+  position: fixed;
+  background-color: tomato;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  right: 17px;
+  top: 50px;
+}
