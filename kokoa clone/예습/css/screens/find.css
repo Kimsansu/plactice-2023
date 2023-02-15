@@ -123,3 +123,9 @@
   width: 15px;
   height: 15px;
 }
+
+.find-line {
+  margin: 15px 0px;
+  padding: 5px 0px;
+  border-top: var(--main-border);
+}
