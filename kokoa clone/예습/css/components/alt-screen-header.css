@@ -7,8 +7,11 @@
 }
 
 .alt-header_title {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
+}
+.alt-header_column {
+  width: 33%;
 }
 
 .alt-header_column:first-child {
@@ -16,5 +19,18 @@
 }
 
 .alt-header_column:last-child {
-  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header_column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header_column span:last-child {
+  margin-left: 10px;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
 }
