@@ -1,0 +1,39 @@
+.setting-setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting-setting img {
+  margin-right: 20px;
+  opacity: 0.8;
+}
+
+.setting-setting-column:last-child {
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.alt-header {
+  margin-top: 20px;
+}

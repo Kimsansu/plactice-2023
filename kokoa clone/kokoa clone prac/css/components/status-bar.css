@@ -1,0 +1,26 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.first-column {
+  width: 33%;
+}
+.first-column:first-child span {
+  margin-right: 3px;
+}
+.first-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.first-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.first-column .battery-icon {
+  margin: 0px 3px;
+}
+.first-column .lock-icon {
+  margin: 10px;
+}
