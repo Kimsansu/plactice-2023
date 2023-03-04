@@ -1,0 +1,37 @@
+body {
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.first {
+  background-color: blanchedalmond;
+  display: flex;
+  width: 350px;
+  height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  position: absolute;
+}
+.second {
+  background-color: teal;
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+}
+
+.Rectangle {
+  background-color: teal;
+  width: 300px;
+  height: 65px;
+  margin: 30px 0 30px 0;
+  border: 2px dashed white;
+}
