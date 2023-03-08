@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  background-color: antiquewhite;
+  justify-content: center;
+}
+
+.all-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+}
+
+.color-boxs {
+  display: flex;
+  position: relative;
+  width: 220px;
+  height: 350px;
+  border: 7px solid white;
+}
+
+.color-info {
+  position: absolute;
+  background-color: white;
+  top: 35px;
+  height: 100px;
+  width: 220px;
+  font-weight: bolder;
+}
+
+.color-boxs:first-child {
+  background-color: tomato;
+  margin: 20px;
+}
+
+.color-boxs:nth-child(2) {
+  background-color: teal;
+}
+
+.second-boxs .color-boxs:first-child {
+  background-color: burlywood;
+}
+
+.second-boxs .color-boxs:nth-child(2) {
+  background-color: thistle;
+}
