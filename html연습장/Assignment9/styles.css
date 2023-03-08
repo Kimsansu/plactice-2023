@@ -1,0 +1,143 @@
+html {
+  border: 4px solid teal;
+  height: 99%;
+}
+
+body {
+  margin: 0 40px 0 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+#playlist-bar {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.play-img {
+  display: flex;
+  background-color: rgb(230, 195, 101);
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.play-img img {
+  margin: 11px 0 0 10px;
+}
+
+.play-text {
+  margin-top: 30px;
+}
+.play-text-title {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+.play-text-info {
+  display: flex;
+  margin-left: 30px;
+  margin-top: -10px;
+  white-space: nowrap;
+}
+
+#play-btns {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#play-btn {
+  height: 50px;
+  width: 220px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 4px;
+}
+
+.circle-btn {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 10px;
+  box-shadow: 1px 4px;
+}
+
+.playlist-waiting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.waiting-img {
+  display: block;
+  height: 45px;
+  width: 45px;
+  background-color: tomato;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.waiting-name {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.waiting-info {
+  margin-left: 50px;
+  white-space: nowrap;
+  opacity: 0.7;
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.waiting-text {
+  margin-top: -13px;
+  margin-left: 3px;
+}
+
+.waiting-name:nth-child(3) {
+  white-space: nowrap;
+  display: inline;
+}
+
+.waiting-img2 {
+  display: block;
+  height: 45px;
+  width: 45px;
+  background-color: orchid;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.waiting-img3 {
+  display: block;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(38, 91, 236);
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.waiting-img4 {
+  display: block;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(44, 226, 211);
+  border: 1px solid black;
+  border-radius: 12px;
+}
