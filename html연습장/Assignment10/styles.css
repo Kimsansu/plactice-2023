@@ -1,0 +1,130 @@
+@import "reset.css";
+
+.main-screen {
+  margin: 0 25px 0 25px;
+}
+
+.library-bar {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10px 50px 10px;
+  font-size: 20px;
+  background-color: rgb(178, 138, 216);
+}
+
+.shearch-bar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+input {
+  width: 85%;
+  display: flex;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  margin-top: -25px;
+  position: fixed;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(223, 223, 223);
+  text-align: ;
+}
+input:focus {
+  outline: none;
+}
+
+.shearch-bar i {
+  position: fixed;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  margin-left: 800px;
+}
+
+.library-big-titles {
+  font-weight: border;
+  font-size: 23px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main-book img {
+  border-radius: 15px;
+  float: left;
+  margin-right: 13px;
+}
+
+.book-name {
+  font-size: 23px;
+}
+
+.writer-name {
+  margin: 10px 0 10px 0;
+  opacity: 0.3;
+}
+
+.book-stars {
+  color: rgb(255, 207, 50);
+}
+
+.book-mark {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(188, 149, 211);
+  text-align: center;
+  margin-right: 50px;
+}
+
+.list-title {
+  margin: 30px 0 30px 0;
+  font-size: 23px;
+}
+
+.book-list img {
+  height: 150px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.little-book_single {
+  float: left;
+}
+
+.book-stars i {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bottom-title {
+  font-size: 23px;
+  margin: 10px 0 10px 0;
+}
+
+.writer-img {
+  float: left;
+}
+
+.writer-name1 {
+  margin: 20px 0 20px 20px;
+  font-size: 20px;
+}
+
+.writer-info {
+  line-height: 130%;
+  font-size: 13px;
+  opacity: 0.6;
+}
