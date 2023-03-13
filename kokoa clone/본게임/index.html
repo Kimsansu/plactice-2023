@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to AnimeTalk</title>
+  </head>
+  <body>
+    <div class="startus-bar">
+      <div class="startus-bar_column">
+        <span>No Service</span>
+        <i><img src="아이콘/wifi.png" /></i>
+      </div>
+      <div class="startus-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="startus-bar_column">
+        <i><img src="아이콘/rotation-lock.png" /></i>
+        <span>83%</span>
+        <i><img src="아이콘/battery.png" /></i>
+        <i><img src="아이콘/thunder.png" /></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <img
+        class="welcome-header-img"
+        src="https://images6.fanpop.com/image/photos/35800000/Killua-killua-zoldyck-2011-35806939-500-281.gif"
+        width="100px"
+      />
+      <h1 class="welcome-header_title">Welcome to AnimeTalk</h1>
+      <p class="welcome-header_text">
+        If you have a AnimeTalk Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        minlength="10"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="8"
+      />
+      <input class="login-btn" type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Anime Account or password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <div id="no-mobile">
+      <span>화면을 줄여주세요 </span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.find-icons_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons_icon i {
+  font-size: 35px;
+}
+.find-icons_icon span {
+  margin-top: 18px;
+}
+
+.find-icons_icon:last-child {
+  margin-top: -8px;
+}
+
+.recommended-friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends_title {
+  font-size: 12px;
+  color: var(--font-grey);
+}
+
+.recommended-friends span {
+  margin: 50px 0;
+  display: block;
+  text-align: center;
+  color: var(--font-grey);
+  font-size: 15px;
+}
+
+.open-chat-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-grey);
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post-hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.open-post-members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post-members img {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.open-post-member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post-members .divider {
+  width: 2px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: var(--font-grey);
+}
+
+.open-post-meber-status {
+  color: #ffb0e0;
+  font-size: 15px;
+}
+
+.open-post-photo {
+  position: relative;
+}
+
+.open-post-photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8%;
+}
+
+.open-post-heart-count span {
+  margin-left: 5px;
+}
+
+.open-post-heart-count img {
+  width: 15px;
+  height: 15px;
+}
+
+.find-line {
+  margin: 15px 0px;
+  padding: 5px 0px;
+  border-top: var(--main-border);
+}
+
+.icon-row__icon {
+  padding: -50px;
+}
+
+.open-post-heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 13px;
+}
+
+@keyframes heartBeat {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.open-post-heart-count:hover img {
+  will-change: transform;
+  animation: heartBeat 2s linear infinite;
+}

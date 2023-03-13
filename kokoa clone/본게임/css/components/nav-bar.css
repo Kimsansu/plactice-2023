@@ -1,0 +1,79 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(240, 9%, 98%);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: var(--font-grey);
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  position: relative;
+  color: #2e363e;
+}
+.nav-notification {
+  position: absolute;
+  left: 20px;
+  top: -23px;
+}
+.nav-dot {
+  background-color: rgb(146, 132, 228);
+  position: absolute;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  left: 33px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.find-dot {
+  position: absolute;
+  background-color: rgb(146, 132, 228);
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  right: 17px;
+  top: 55px;
+}
+
+.chat-bad {
+  background-color: rgb(146, 132, 228);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.badge {
+  background-color: rgb(146, 132, 228);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
